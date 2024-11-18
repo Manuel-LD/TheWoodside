@@ -1,23 +1,28 @@
-body{
+body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.nav{
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    --bs-nav-link-color: #C38154;
-    --bs-nav-link-hover-color: #ffffff;
-    background-color: #00000000;
-    font-size: large;
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-nav, .navbar{
+    --bs-navbar-color: #d8ad63;
+    --bs-navbar-brand-hover-color: #eeca55;
+    --bs-navbar-brand-color: #d8ad63;
+    --bs-nav-link-hover-color: #eeca55;
 }
 
 footer {
-    background-color: #A0937D;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(248, 249, 250, 1);
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
 }
+
 .footer{
     display: flex;
     justify-content: center;
