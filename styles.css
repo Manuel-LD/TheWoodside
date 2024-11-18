@@ -1,0 +1,30 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    --bs-nav-link-color: #C38154;
+    --bs-nav-link-hover-color: #ffffff;
+    background-color: #00000000;
+    font-size: large;
+}
+
+footer {
+    background-color: #A0937D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.footer img:hover {
+    transform: scale(1.1);
+}
